@@ -39,9 +39,11 @@ header.rolagem{
     margin: 0px;
     
 }
+
 header.rolagem a{
     color: black;
 }
+
 header.rolagem li{
     padding-right: 25px;
 }
@@ -71,11 +73,8 @@ a:hover{
     color: black;
 }
 
-
 body{
-    background-image: url(Imagens/download.jfif);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-color: lightskyblue;
 }
 
 img#img{
