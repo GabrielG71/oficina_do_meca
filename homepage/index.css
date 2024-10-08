@@ -86,10 +86,10 @@ li{
     color: white;
 }
 .icon{
-    padding: 0px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-right: 30px;
+    position: relative;
+    top: 5px;
+
 }
 a{
     text-decoration: none;
