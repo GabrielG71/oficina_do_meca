@@ -114,3 +114,9 @@ main{
     height: 100vh;
     background-color: white;
 }
+
+.header_conteudo {
+    padding-top: 9.25rem;
+    padding-bottom: 7.5rem;
+    text-align: center;
+}
