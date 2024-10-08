@@ -30,6 +30,8 @@ header{
     top: 0;
     left: 0;
     transition: 1s;
+    height: 100px;
+    z-index: 1000;
     
 }
 header.rolagem{
@@ -77,4 +79,11 @@ body{
 
 img#img{
    display: inline-block;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 180px;
+    background-color: white;
 }
