@@ -23,6 +23,13 @@ html{
     padding: 5px;
 }
 header{
+    height: 800px;
+    /* Aqui vai ficar o background do header
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+nav{
     width: 100%;
     padding: 30px;
     padding-top: 10px;
@@ -32,9 +39,12 @@ header{
     transition: 1s;
     height: 100px;
     z-index: 1000;
-    
 }
-header.rolagem{
+ul{
+    margin-right: 25px;
+}
+
+nav.rolagem{
     background-color: white;
     padding: 0px;
     padding-top: 5px;
@@ -42,11 +52,11 @@ header.rolagem{
     
 }
 
-header.rolagem a{
+nav.rolagem a{
     color: black;
 }
 
-header.rolagem li{
+nav.rolagem li{
     padding-right: 25px;
 }
 
@@ -84,6 +94,5 @@ img#img{
 main{
     width: 100vw;
     height: 100vh;
-    margin-top: 180px;
     background-color: white;
 }
