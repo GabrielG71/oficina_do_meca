@@ -67,7 +67,10 @@ nav.rolagem{
 nav.rolagem a{
     color: black;
 }
-
+nav.rolagem a:hover{
+    color: blue;
+    transition: 0.2s;
+}
 nav.rolagem li{
     padding-right: 25px;
 }
