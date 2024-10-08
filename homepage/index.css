@@ -63,7 +63,9 @@ nav.rolagem{
     margin: 0px;
     transition: 0.2s;
 }
-
+nav.rolagem img{
+    filter: brightness(0);
+}
 nav.rolagem a{
     color: black;
 }
