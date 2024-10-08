@@ -155,3 +155,11 @@ div.elemento img{
     height: auto;
 }
 
+.texto_emocional {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info {
+    background-color: darkgray;
+}
