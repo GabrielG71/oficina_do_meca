@@ -145,3 +145,13 @@ a.loja_button:hover{
 p{
     padding-bottom: 30px;
 }
+div.elemento{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 200px;
+}
+div.elemento img{
+    width: 100px;
+    height: auto;
+}
+
