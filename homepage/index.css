@@ -161,5 +161,7 @@ div.elemento img{
 }
 
 .info {
-    background-color: darkgray;
+    background-color: rgba(60,71,80,255);
+    color: white;
+    font-size: 30px;
 }
