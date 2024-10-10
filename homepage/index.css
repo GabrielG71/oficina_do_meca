@@ -145,7 +145,7 @@ a.detalhes:hover{
 
     transition: 0.2s;
     background-color: white;
-    color: rgba(135, 206, 250, 0.8);
+    color: rgba(12, 20, 72, 0.8);
 }
 h1#nome_grande{
     font-size: 3em;
