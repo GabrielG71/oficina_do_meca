@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     padding: 0px;
@@ -28,7 +28,8 @@ header{
     /* Aqui vai ficar o background do header */
     background-size: cover;
     position: relative;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
 }
 
 header::before {
@@ -64,7 +65,7 @@ nav.rolagem{
     margin: 0px;
     transition: 0.2s;
 }
-nav.rolagem img{
+nav.rolagem .img_of{
     filter: brightness(0);
 }
 nav.rolagem a{
@@ -77,7 +78,6 @@ nav.rolagem a:hover{
 nav.rolagem li{
     padding-right: 25px;
 }
-
 
 
 nav{
@@ -133,19 +133,29 @@ main{
     font-size: 2em;
 }
 
-a.loja_button{
-    color: blue;
-    border: 2px solid black;
+a.detalhes{
+    color: black;
+    border: 2px solid white;
     border-radius: 40px;
     font-size: 1em;
     padding: 10px;
+    font-weight: bolder;
 }
-a.loja_button:hover{
+a.detalhes:hover{
+
+    transition: 0.2s;
     background-color: white;
+    color: rgba(135, 206, 250, 0.8);
 }
-p{
+h1#nome_grande{
+    font-size: 3em;
+}
+p#p_grande{
+    font-size: 1.5em;
     padding-bottom: 30px;
 }
+
+
 div.elemento{
     display: flex;
     justify-content: space-evenly;
