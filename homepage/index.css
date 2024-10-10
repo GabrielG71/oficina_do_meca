@@ -226,3 +226,72 @@ div.elemento img{
 #texto-migas {
     color: white;
 }
+
+@media (max-width: 1024px) {
+    .header_conteudo {
+        padding-left: 5rem;
+        padding-top: 8rem;
+        font-size: 1.5em;
+    }
+
+    h1#nome_grande {
+        font-size: 2em;
+    }
+
+    p#p_grande {
+        font-size: 1.2em;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .sobre-1 .texto, .sobre-1 .imagem {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_conteudo {
+        padding-left: 2rem;
+        padding-top: 6rem;
+        text-align: center;
+    }
+
+    a.detalhes {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .sobre-1 .imagem, .sobre-1 .texto {
+        margin-bottom: 10px;
+    }
+
+    .sobre-1 .imagem {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobre-1 .texto {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header_conteudo {
+        font-size: 2.5em;
+    }
+
+    h1#nome_grande {
+        font-size: 3.5em;
+    }
+
+    p#p_grande {
+        font-size: 2em;
+    }
+}
