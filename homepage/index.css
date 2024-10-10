@@ -135,7 +135,7 @@ main{
 
 a.detalhes{
     color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid white;
     border-radius: 40px;
     font-size: 1em;
     padding: 10px;
@@ -225,6 +225,34 @@ div.elemento img{
 
     .sobre-1 .texto {
         text-align: center;
+    }
+
+    #nome_grande {
+        font-size: 2.5rem;
+    }
+
+    #p_grande {
+        font-size: 1.2rem;
+    }
+
+    #botão a {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #nome_grande {
+        font-size: 2rem;
+    }
+
+    #p_grande {
+        font-size: 1rem;
+    }
+
+    #botão a {
+        font-size: 0.9rem;
+        padding: 6px 12px;
     }
 }
 
