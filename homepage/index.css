@@ -72,7 +72,7 @@ nav.rolagem a{
     color: black;
 }
 nav.rolagem a:hover{
-    color: blue;
+    color: gray;
     transition: 0.2s;
 }
 nav.rolagem li{
@@ -104,7 +104,7 @@ a{
 
 a:hover{
     transition: 0.5s;
-    color: black;
+    color: rgb(163, 2, 163);
 }
 
 body{
