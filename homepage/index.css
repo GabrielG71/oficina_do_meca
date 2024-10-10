@@ -213,49 +213,6 @@ div.elemento img{
     color: #333;
 }
 
-@media (max-width: 768px) {
-    .sobre-1 {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .sobre-1 .imagem {
-        margin-right: 0;
-    }
-
-    .sobre-1 .texto {
-        text-align: center;
-    }
-
-    #nome_grande {
-        font-size: 2.5rem;
-    }
-
-    #p_grande {
-        font-size: 1.2rem;
-    }
-
-    #botão a {
-        font-size: 1rem;
-        padding: 8px 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    #nome_grande {
-        font-size: 2rem;
-    }
-
-    #p_grande {
-        font-size: 1rem;
-    }
-
-    #botão a {
-        font-size: 0.9rem;
-        padding: 6px 12px;
-    }
-}
-
 .imagem {
     width: 200px;
     height: 200px;
