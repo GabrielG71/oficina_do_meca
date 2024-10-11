@@ -276,6 +276,7 @@ div.elemento img{
     background: #000000;
     margin-top: 5px;
     position: relative;
+    transition: 0.3s;
 }
 .rolagem .hamburguer{
     
@@ -303,6 +304,7 @@ div.elemento img{
     background: #fff;
     margin-top: 5px;
     position: relative;
+    transition: 0.3s;
 }
 .nav.active .hamburguer{
     border-top:3px solid #fff ;
@@ -316,6 +318,7 @@ div.elemento img{
     background: #fff;
     margin-top: 5px;
     position: relative;
+    transition: 0.3s;
 }
 
 .nav.active a{
