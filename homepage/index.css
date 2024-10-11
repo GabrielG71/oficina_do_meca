@@ -86,7 +86,7 @@ nav.rolagem a:hover{
     color: gray;
     transition: 0.2s;
 }
-.nav.active .rolagem .hamburguer{
+.nav.active .rolagem .hamburguer{ 
     padding-right: 0px;
 }
 
