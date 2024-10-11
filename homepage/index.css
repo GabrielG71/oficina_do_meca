@@ -6,12 +6,13 @@
     margin: 0px;
 }
 html{
-    height: 200vh;
+    width: 100vw;
+    height: 100vh;
 }
 .container{
-    max-width: 100vw;
+    max-width: 100%;
     margin: auto;
-    margin-right: 20px;
+    
     
 }
 .flex{
@@ -31,7 +32,11 @@ header{
     font-family: "Roboto", sans-serif;
     font-size: medium;
 }
-
+nav#header{
+    width: 100vw;
+    text-align: right;
+    padding-right: 40px;
+}
 header::before {
     content: '';
     position: absolute;
@@ -44,7 +49,11 @@ header::before {
 }
 
 nav{
-    width: 100%;
+    max-width: 97vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     padding: 30px;
     padding-top: 10px;
     position: fixed;
@@ -54,9 +63,11 @@ nav{
     height: 100px;
     z-index: 1000;
 }
-ul{
-    margin-right: 25px;
+.nav-list{
+    display: flex;
+    gap: 32px;
 }
+
 
 nav.rolagem{
     background-color: white;
@@ -80,21 +91,25 @@ nav.rolagem li{
 }
 
 
-nav{
-    text-align: right;
-}
+
 
 li{
     display: inline-block;
-    padding-top: 30px;
-    padding-right: 30px;
-    margin-bottom: 40px;
+    
+    
+    margin-bottom: 0px;
     color: white;
 }
-.icon{
-    margin-right: 30px;
+li.icon{
+    display: flex;
+    padding-right: 40px;
     position: relative;
-    top: 5px;
+    top: -3px;
+    gap: 20px;
+}
+
+.nav.active .icon{
+    display: none;
 
 }
 a{
@@ -108,7 +123,8 @@ a:hover{
 }
 
 body{
-    background-color: lightskyblue;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 img#img{
@@ -251,8 +267,64 @@ div.elemento img{
         text-align: center;
     }
 }
+.rolagem .hamburguer::before,
+.rolagem .hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000000;
+    margin-top: 5px;
+}
+.rolagem .hamburguer{
+    
+    border: none;
+    background: none;
+    border-top:3px solid #000000 ;
+    cursor: pointer;
+}
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top:3px solid #fff ;
+    cursor: pointer;
+    
+    
+    
+}
+.hamburguer::before,
+.hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+}
+.nav.active .hamburguer{
+    border-top:3px solid #fff ;
+}
+.nav.active .hamburguer::before,
+.nav.active .hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+}
 
-@media (max-width: 768px) {
+.nav.active a{
+    color: white;
+}
+.nav.active :hover{
+    color: purple;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 750px) {
     .header_conteudo {
         padding-left: 2rem;
         padding-top: 6rem;
@@ -280,6 +352,57 @@ div.elemento img{
     footer {
         text-align: center;
     }
+    .hamburguer{
+        display: block;
+        margin-right: 40px;
+        z-index: 3;
+        
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        clip-path: circle(100px at 90% -25%);
+        transition: 0.4s ease-out;
+
+
+        background: rgb(12, 20, 72);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 2;
+        gap: 0;
+        pointer-events: none;
+    }
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+    .nav-list.icon{
+        display: inline-flex; /* Aplica o flexbox apenas aos spans de ícones */
+        flex-direction: row; /* Garante que os ícones fiquem na horizontal */
+        gap: 10px; /* Espaçamento entre os ícones */
+        list-style: none; /* Remove qualquer estilo de lista */
+    }
+    .nav .icon{
+        display: none;
+    }
+    li.icon img{
+        width: 30px;
+        height: 30px;
+    }
+    .nav.active .icon {
+        display: inline-flex;
+        gap: 20px;
+        
+        
+    }
+    
 }
 
 @media (min-width: 1440px) {
