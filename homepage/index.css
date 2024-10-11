@@ -326,8 +326,13 @@ div.elemento img{
 
 @media (max-width: 750px) {
     .header_conteudo {
-        padding-left: 2rem;
-        padding-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        padding-left: 32px;
+        padding-top: 0;
         text-align: center;
     }
 
