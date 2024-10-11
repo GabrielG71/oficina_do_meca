@@ -399,6 +399,7 @@ div.elemento img{
     .nav.active .icon {
         display: inline-flex;
         gap: 20px;
+        padding-right: 0px;
         
         
     }
