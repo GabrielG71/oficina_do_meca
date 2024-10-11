@@ -275,6 +275,7 @@ div.elemento img{
     height: 3px;
     background: #000000;
     margin-top: 5px;
+    position: relative;
 }
 .rolagem .hamburguer{
     
@@ -301,6 +302,7 @@ div.elemento img{
     height: 3px;
     background: #fff;
     margin-top: 5px;
+    position: relative;
 }
 .nav.active .hamburguer{
     border-top:3px solid #fff ;
@@ -313,6 +315,7 @@ div.elemento img{
     height: 3px;
     background: #fff;
     margin-top: 5px;
+    position: relative;
 }
 
 .nav.active a{
@@ -405,10 +408,22 @@ div.elemento img{
         display: inline-flex;
         gap: 20px;
         padding-right: 0px;
-        
-        
     }
-    
+    .nav.active .hamburguer{
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent ;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .nav.active .hamburguer::before{
+        transform: rotate(135deg);
+    }
+    .nav.active .hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
 }
 
 @media (min-width: 1440px) {
