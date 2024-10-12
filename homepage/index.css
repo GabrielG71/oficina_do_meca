@@ -90,9 +90,6 @@ nav.rolagem a:hover{
     padding-right: 0px;
 }
 
-
-
-
 li{
     display: inline-block;
     
@@ -234,9 +231,16 @@ div.elemento img{
     height: 200px;
 }
 
-#sobre-migas {
-    background-color: rgba(60,71,80,255);
-    color: white;
+#produtos {
+    background-color: red;
+}
+
+#detalhes {
+    background-color: aquamarine;
+}
+
+#projeto {
+    background-color: yellow;
 }
 
 #texto-migas {
