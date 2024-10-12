@@ -12,12 +12,10 @@ const hamburguer = document.querySelector(".hamburguer");
 const nav = document.querySelector(".nav");
 const navLinks = document.querySelectorAll('.nav-list li a');
 
-// Função para alternar o menu quando o ícone do hamburguer for clicado
 hamburguer.addEventListener("click", () => {
   nav.classList.toggle("active");
 });
 
-// Função para fechar o menu quando um link for clicado
 navLinks.forEach((link) => {
   link.addEventListener('click', () => {
       nav.classList.remove('active');
