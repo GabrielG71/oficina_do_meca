@@ -130,7 +130,7 @@ img#img{
 
 main{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: white;
 }
 
@@ -367,9 +367,7 @@ div.elemento img{
         font-size: 0.9rem;
     }
 
-    footer {
-        text-align: center;
-    }
+    
     .hamburguer{
         display: block;
         margin-right: 40px;
@@ -448,4 +446,9 @@ div.elemento img{
     p#p_grande {
         font-size: 2em;
     }
+}
+
+footer {
+    text-align: center;
+    padding-block: 50px;
 }
