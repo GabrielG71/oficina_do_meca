@@ -452,3 +452,7 @@ footer {
     text-align: center;
     padding-block: 50px;
 }
+
+.nav-list a.active {
+    color: red;
+}

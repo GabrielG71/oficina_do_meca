@@ -71,3 +71,26 @@ function smoothScrollTo(endX, endY, duration) {
       window.scroll(newX, newY);
   }, 1000 / 60);
 }
+
+document.addEventListener("scroll", function() {
+  const sections = document.querySelectorAll("#produtos, #detalhes, #projeto, header, footer");
+  const navLinks = document.querySelectorAll(".nav-list a");
+
+  let currentSection = "";
+
+  sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+
+      if (window.scrollY >= sectionTop - window.innerHeight / 3 && window.scrollY < sectionTop + sectionHeight - window.innerHeight / 3) {
+          currentSection = section.getAttribute("id");
+      }
+  });
+
+  navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${currentSection}`) {
+          link.classList.add("active");
+      }
+  });
+});
