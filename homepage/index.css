@@ -345,6 +345,7 @@ div.elemento img{
         align-items: center;
         height:100vh;
         padding-left: 32px;
+        padding-right: 1.85em;
         padding-top: 0;
         text-align: center;
     }
