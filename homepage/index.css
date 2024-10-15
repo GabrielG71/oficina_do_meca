@@ -400,10 +400,10 @@ div.elemento img{
         pointer-events: all;
     }
     .nav-list.icon{
-        display: inline-flex; /* Aplica o flexbox apenas aos spans de ícones */
-        flex-direction: row; /* Garante que os ícones fiquem na horizontal */
-        gap: 10px; /* Espaçamento entre os ícones */
-        list-style: none; /* Remove qualquer estilo de lista */
+        display: inline-flex;
+        flex-direction: row;
+        gap: 10px;
+        list-style: none;
     }
     .nav .icon{
         display: none;
