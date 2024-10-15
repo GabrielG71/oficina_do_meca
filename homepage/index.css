@@ -456,3 +456,13 @@ footer {
 .nav-list a.active {
     color: rgb(163, 2, 163);
 }
+
+.info {
+    position: relative;
+    z-index: 10;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
