@@ -24,7 +24,7 @@ html{
     padding: 5px;
 }
 header{
-    height: 800px;
+    height: 1400px;
     background: url('Imagens/header_background.jpeg') no-repeat center center;
     /* Aqui vai ficar o background do header */
     background-size: cover;
@@ -184,19 +184,12 @@ div.elemento img{
     text-align: center;
 }
 
-.info {
-    background-color: rgba(60,71,80,255);
-    color: white;
-    font-size: 30px;
-}
-
 .sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
-    color: white;
 }
 
 .sobre-1 {
@@ -519,4 +512,41 @@ header {
 
 .icones a img:hover {
     filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
+}
+
+#marca_registrada {
+    padding-top: 2em;
+}
+
+.info {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.texto_emocional {
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#imagem-emocional {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+#img_emo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: invert(1) brightness(2);
 }
