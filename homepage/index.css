@@ -445,20 +445,6 @@ div.elemento img{
     }
 }
 
-@media (min-width: 1440px) {
-    .header_conteudo {
-        font-size: 2.5em;
-    }
-
-    h1#nome_grande {
-        font-size: 3.5em;
-    }
-
-    p#p_grande {
-        font-size: 2em;
-    }
-}
-
 footer {
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
     text-align: center;
