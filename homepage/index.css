@@ -204,7 +204,7 @@ div.elemento img{
 .sobre-1 .imagem {
     flex: 0 0 300px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .sobre-1 .imagem img {
@@ -215,7 +215,7 @@ div.elemento img{
 
 .sobre-1 .texto {
     flex: 1;
-    font-size: 20px;
+    font-size: 16px;
     color: #333;
 }
 
@@ -239,9 +239,7 @@ div.elemento img{
    background-color: rgba(249,250,252,255); 
 }
 
-#detalhes {
-    
-}
+
 
 #projeto {
     background-color: rgba(249,250,252,255);
@@ -559,4 +557,25 @@ header {
     width: 800px;
     height: 400px;
     filter: invert(1) brightness(2);
+}
+div.sobre-1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    width: 1280px;
+}
+div.texto-p{
+    width: 300px;
+    height: 300px;
+    padding: 1px;
+    font-size: 16px;
+}
+
+p#ultimo_texto{
+    padding-bottom: 50px;
+}
+
+.imagem{
+    padding-left: 30px;
 }
