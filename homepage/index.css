@@ -105,6 +105,14 @@ li.icon{
     top: -3px;
     gap: 20px;
 }
+li.icon a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+li.icon a img:hover {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
+}
 
 .nav.active .icon{
     display: none;
