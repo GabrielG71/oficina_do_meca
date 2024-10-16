@@ -212,7 +212,7 @@ div.elemento img{
 .sobre-1 .imagem {
     flex: 0 0 300px;
     margin-right: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 114px;
 }
 
 .sobre-1 .imagem img {
@@ -367,15 +367,17 @@ div.elemento img{
 
     .sobre-1 .imagem, .sobre-1 .texto {
         margin-bottom: 10px;
+        
     }
 
     .sobre-1 .imagem {
-        width: 100%;
-        height: auto;
+        width: 100px;
+        
     }
 
     .sobre-1 .texto {
-        font-size: 0.9rem;
+        font-size: 10px;
+        
     }
 
     
@@ -557,7 +559,7 @@ div.sobre-1{
     flex-flow: row nowrap;
     justify-content: space-between;
 
-    width: 1280px;
+    width: 600px;
 }
 div.texto-p{
     width: 300px;
@@ -572,4 +574,32 @@ p#ultimo_texto{
 
 .imagem{
     padding-left: 30px;
+}
+
+
+.sobre-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 1280px;
+}
+
+.sobre-2 .imagem {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre-2 .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sobre-2 .texto {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
 }
