@@ -353,11 +353,19 @@ div.elemento img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height: 100vh;
         padding-left: 32px;
         padding-right: 1.85em;
         padding-top: 0;
         text-align: center;
+    }
+
+    #img_emo {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        max-height: 300px;
+        display: block;
     }
 
     a.detalhes {
